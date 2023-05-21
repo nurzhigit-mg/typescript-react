@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroUser from "../../../assets/img/hero.png"
-import Icons from "../../../assets/img/iconca.svg"
+import Icons from "../../../assets/img/Frame.png"
 
 
 const Hero = () => {
@@ -15,10 +15,7 @@ const Hero = () => {
                       <h1 className="text-white py-8">Listen on</h1>
                       <div className="flex ">
                           <img className="mx-2" src={Icons} alt="img"/>
-                          <img className="mx-2" src={Icons} alt="img"/>
-                          <img className="mx-2" src={Icons} alt="img"/>
-                          <img className="mx-2" src={Icons} alt="img"/>
-                          <img className="mx-2" src={Icons} alt="img"/>
+
                       </div>
                   </div>
                 </div>

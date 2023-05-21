@@ -2,7 +2,7 @@ import React from 'react';
 import {AiOutlineInstagram} from "react-icons/ai";
 import {FiFacebook, FiTwitter} from "react-icons/fi";
 import {Link} from "react-router-dom";
-import Spotify from "../.././assets/img/iconca.svg"
+import Spotify from "../.././assets/img/Frame.png"
 
 const Footer = () => {
     return (
@@ -31,10 +31,6 @@ const Footer = () => {
                    <a href="">Licenses</a>
                </div>
                <div className="flex w-[450px]">
-                   <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
                    <img className="m-2" src={Spotify} alt="img"/>
                </div>
            </div>

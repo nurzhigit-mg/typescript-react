@@ -3,7 +3,7 @@ import {AiFillStar} from "react-icons/ai";
 
 const Stars = () => {
     return (
-      <div className="container py-24 flex flex-wrap">
+      <div className="container py-24 flex flex-wrap justify-between">
           <div className="w-[388px] h-[280px] rounded-3xl bg-black py-10 px-8 mx-2 my-2">
               <div className="flex items-center">
                   <div className="text-amber-200 text-3xl"><AiFillStar/></div>
